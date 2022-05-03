@@ -17,6 +17,8 @@
       "Xylemical\\Type\\": "tests/src/"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=8.0"
   },
