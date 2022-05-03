@@ -1,12 +1,12 @@
 {
-  "name": "xylemical/data-types",
+  "name": "xylemical/type",
   "type": "library",
   "license": "MIT",
   "description": "Provides basic data type framework.",
   "keywords": [
     "data types"
   ],
-  "homepage": "https://github.com/xylemical/data-types",
+  "homepage": "https://github.com/xylemical/type",
   "autoload": {
     "psr-4": {
       "Xylemical\\Type\\": "src/"

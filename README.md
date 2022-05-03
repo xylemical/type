@@ -7,7 +7,7 @@ Provides a framework for type definitions.
 The recommended way to install this library is [through composer](http://getcomposer.org).
 
 ```sh
-composer require xylemical/data-types
+composer require xylemical/type
 ```
 
 ## Usage
