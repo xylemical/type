@@ -43,4 +43,14 @@ interface PathInterface {
    */
   public function setParent(?TypeInterface $parent): static;
 
+  /**
+   * Check that the type is a parent.
+   *
+   * @param \Xylemical\Type\TypeInterface $parent
+   *   The parent.
+   *
+   * @return bool
+   */
+  public function isParent(TypeInterface $parent): bool;
+
 }

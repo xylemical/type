@@ -69,4 +69,18 @@ class Path implements PathInterface {
     return $this;
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function isParent(TypeInterface $parent): bool {
+    $target = $this->parent;
+    while ($target) {
+      if ($target->isSameType($parent)) {
+        return TRUE;
+      }
+      $target = $target->getPath()->getParent();
+    }
+    return FALSE;
+  }
+
 }

@@ -169,4 +169,11 @@ abstract class Type implements TypeInterface {
     return [];
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function isSameType(TypeInterface $type): bool {
+    return $this === $type;
+  }
+
 }

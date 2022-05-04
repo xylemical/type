@@ -105,4 +105,15 @@ interface TypeInterface {
    */
   public function getConstraints(): array;
 
+  /**
+   * Check if given type is the same as this type.
+   *
+   * @param \Xylemical\Type\TypeInterface $type
+   *   The type.
+   *
+   * @return bool
+   *   The result.
+   */
+  public function isSameType(TypeInterface $type): bool;
+
 }
